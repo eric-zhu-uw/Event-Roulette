@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.31.
 
 ## Issues
-1: `No 'Access-Control-Allow-Origin' header is present on the requested resource` on local server <br />
+1: `No 'Access-Control-Allow-Origin' header is present on the requested resource` on local server__
 Solution: Download a CORS Extension for your browser
 For chrome: https://chrome.google.com/webstore/detail/cors-toggle/omcncfnpmcabckcddookmnajignpffnh?hl=en/
 However if you uploaded the web-application to a server, this issue will not persist

@@ -1,5 +1,9 @@
 # EventRoulette
 
+The purpose of Event Roulette is to help indecisive friends decide on a event nearby that they can all enjoy. <br/>
+By entering their address & type of activity, the application will find a suitable activity nearby that they can all enjoy. <br />
+Never again do people need to fight over what to do and everything will be in the hands of luck. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.31.
 
 ## Issues

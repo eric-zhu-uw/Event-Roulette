@@ -1,0 +1,39 @@
+<div class="container-fluid">
+
+  <div class="form-container">
+    <form class="form-group" [formGroup] = "myForm" (ngSubmit) = "onSubmit()">
+      <div class="input-fields">
+        <div class="row">
+          <h3> Address </h3>
+          <input type="text" class="form-control" id="address" formControlName="address"> 
+        </div>
+        <div class="row">
+            <div class="col-md-6 reset-padding">
+              <h3> City </h3>
+              <input type="text" class="form-control" id="city" formControlName="city">   
+
+              <h3> Province</h3>
+              <input type="text" class="form-control" id="province" formControlName="province"> 
+
+              <h3> Postal Code </h3>
+              <input type="text" class="form-control" id="postalCode" formControlName="postalCode"> 
+            </div>
+
+            <div class="offset-md-2 col-md-4 reset-padding">
+                <h3> Types </h3>
+              <select id="type" class="form-control" formControlName="type">
+                <option *ngFor="let type of types">{{type}}</option>
+              </select>
+
+              <button type="submit" 
+                      class="btn btn-primary spin" 
+                      [disabled]='!myForm.valid'> Spin </button>
+            </div>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+<!--[routerLink]="['/output']"-->

@@ -1,0 +1,59 @@
+.container-fluid{
+    color: navajowhite;
+}
+
+.form-container{
+    width: 30em;
+    margin: auto;
+    height: auto;
+}
+
+.input-fields{
+    display: block;
+    width: 100%;
+}
+
+#address{
+    width: 100%;
+    height: 2em;
+}
+
+#city, #province, #postalCode{
+    width: 15em;
+    height: 2em;
+}
+
+#type{
+    width: 10em;
+    height: 2em;
+    /*color: yellow;*/
+}
+
+.reset-padding{
+    padding: 0;
+}
+
+h3{
+    padding-top: 0.75em;
+}
+
+.spin{
+    margin-top: 8.8em;
+    float: right;
+    margin-right: 0.5em;
+}
+
+@media screen and (max-width: 767px){
+    .form-container{
+        width: 15em;
+        margin: auto;
+        height: auto;
+    }
+
+    .spin{
+        margin-top: 1.5em;
+        float: left;
+        margin-right: 0em;
+    }
+
+}

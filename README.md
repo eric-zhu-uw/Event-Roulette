@@ -8,6 +8,9 @@ Solution: Download a CORS Extension for your browser
 For chrome: https://chrome.google.com/webstore/detail/cors-toggle/omcncfnpmcabckcddookmnajignpffnh?hl=en/
 However if you uploaded the web-application to a server, this issue will not persist
 
+2: `Images will not appear` when you upload the dist folder onto a server <br /> <br />
+Solution: navigate into the `/src` folder and copy and paste the `/img` folder into the dist folder to fix image pathing
+
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

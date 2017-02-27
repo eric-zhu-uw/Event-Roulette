@@ -17,6 +17,8 @@ Solution: navigate into the `/src` folder and copy and paste the `/img` folder i
 
 3: Add a spin again feature
 
+4: Change font and push the form down a little
+
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
